@@ -2,7 +2,7 @@ import React from "react";
 function FleetCard({fleet, onUpdateDriver, ontoggleStatus, onDelete}){
  const handleUpdateDriver =()=>{
 const name = window.prompt ("Enter new drivername", fleet.driver);
-if(name && name.trim() ! == "")
+if(name && name.trim() !== "")
 {
     onUpdateDriver(fleet.id,name.trim());
 }

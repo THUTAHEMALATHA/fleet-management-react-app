@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar.jsx";
 import Sidebar from "../components/Sidebar.jsx";
 import Fleetcard from "../components/FleetCard.jsx";
 function AdminPage(){
+ return(
 
+ )
 }
 export dafault AdminPage;
